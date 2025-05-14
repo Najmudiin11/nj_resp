@@ -1,61 +1,74 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/src/output.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link  rel="website icon" type="png" href="photos/favicon.png"> -->
   <title>NAJMUDIIN WEBSITE</title>
 </head>
-<body>
-
-
-
-    <!-- heading section -->
-  <header class="image" style="background-image: url(/src/photos/nj-001.jpg);">
-    <div class="bgoverlay"></div>
-
-    <div class="Allcontents absolute inset-0 w-[1000px]  mx-auto ">
-
-      <div class="topcont  flex justify-between py-5">
-        <h5 class="head">
-          NAJMUDIIN <br><span class="text-xl font-light">WEBSITE</span>
-        </h5>
-
-        <nav>
-          <ul class="flex space-x-10">
-            <li><a class="text-white text-xl hover:text-blue-400" href="index.html">Home</a></li>
-            <li><a class="text-white text-xl hover:text-blue-400 underline" href="About_me.html">About me</a></li>
-            <li><a class="text-white text-xl hover:text-blue-400" href="About_SNU.html">About SNU</a></li>
-            <li><a class="text-white text-xl hover:text-blue-400" href="About_my_village.html">About my village</a></li>
-            <li><a class="text-white text-xl hover:text-blue-400" href="Contact.html">Contact</a></li>
-          </ul> 
-        </nav>
-      </div>
-
-      <div class="midcont text-white my-20 ">
-        <h4 class=" text-6xl leading-18  ">
-          WELCOME TO <br>
-          <span class="text-8xl font-bold tracking-wide">NAJMUDIIN</span> <br>
-          <span class="tracking-widest">WEBSITE</span>
-        </h4>
-        <p class="text-2xl  pt-3">
-          I created this space to share my journey, <br>
-          connect with new people, and share <br>
-          my experiences with the others
-        </p>
-      </div>
-      <button class="btns mx-105 my-10">Explore more</button>
-      <p class="text-white mx-118">scroll <img class="h-5 mx-2" src="/src/photos/down.png" alt=""></p>
-
-    </div>
+<body class="overflow-x-hidden">
 
   
-  </header>
+  <section >
+    <header class="h-[800px] bg-center bg-cover w-screen    " style="background-image: url(photos/nj-001.jpg);">
+      <div class="absolute inset-0 w-screen  bg-[#14274A] h-[800px] mix-blend-multiply opacity-50 "></div>
+  
+      <div class="absolute inset-0 container mx-auto pt-5 sm:w-[400px] md:w-[600px] lg:w-[800px]" >
+        <div class="MENU flex  justify-between   items-center">
+          <div class="head" >
+            
+            <img src="photos/logopng.png" alt="">
+          </div>
+  
+          <div>
+            <nav>
+            <ul class="flex lg:space-x-5 sm:space-x-3">
+              <li><a class="text-white lg:text-xl md:text-lg sm:text-sm sm:tracking-tight  hover:text-blue-400 " href="index.html">Home</a></li>
+              <li><a class="text-white lg:text-xl md:text-lg sm:text-sm sm:tracking-tight  hover:text-blue-400 underline" href="About_me.html">About me</a></li>
+              <li><a class="text-white lg:text-xl md:text-lg sm:text-sm sm:tracking-tight  hover:text-blue-400" href="About_SNU.html">About SNU</a></li>
+              <li><a class="text-white lg:text-xl md:text-lg sm:text-sm sm:tracking-tight  hover:text-blue-400" href="About_my_village.html">About my village</a></li>
+              <li><a class="text-white lg:text-xl md:text-lg sm:text-sm sm:tracking-tight  hover:text-blue-400" href="Contact.html">Contact</a></li>
+            </ul>  
+            </nav>
+          </div>
+        </div>
+  
+        <div class="text-white pt-20 ">
+  
+            <h4 class=" lg:text-6xl sm:text-4xl  leading-18   ">
+              WELCOME TO <br>
+              <span class="lg:text-8xl font-bold lg:tracking-wide sm:text-6xl sm:tracking-normal">NAJMUDIIN</span> <br>
+              <span class="tracking-widest">WEBSITE</span>
+            </h4>
+  
+            <p class="text-2xl  pt-3">
+              I created this space to share my journey, <br>
+              connect with new people, and share <br>
+              my experiences with the others
+            </p>
+          </div>
+  
+          <div >
+            <div class=" flex items-center justify-center mt-35">
+              <button class="btns ">Explore more</button>
+            </div>
+            <div class=" flex items-center justify-center mt-5">
+              <p class="text-white">scroll <img class="h-5 mx-2" src="photos/down.png" alt=""></p>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+    </header>
+  
+  </section>
 
   <!-- middle sections -->
 
-  <div class="py-10  mx-auto">
+  <div class="sm:w-[600px] md:w-[740px] lg:w-[1000px] py-10  mx-auto">
     
     <div class="text-center space-y-5">
       <h2 class="title">About me</h2>
@@ -67,23 +80,24 @@
     </div>
 
     <div class="relative mx-auto">
-      <div class="img1 rounded-2xl" style="background-image: url(/src/photos/nj-2.jpg);">
-        <div class=" h-10 bg-bottom bg-transparent py-68"></div>
+      <div class="img1 rounded-2xl" style="background-image: url(photos/nj-2.jpg);">
+        <div class=" h-10 bg-bottom bg-transparent sm:py-15 md:p-30 lg:py-40"></div>
       
 
-        <div class="bg-white h-15 w-160 pt-3  rounded-2xl mx-auto text-2xl tracking-wider  text-center font-semibold"><p> Abdulmaalik Abdullaahi Mohamed (Najmudiin)</p></div>
+        <div class="bg-white h-12 w-110 mt-8  rounded-2xl mx-auto sm:text-sm lg:text-xl   text-center font-semibold"><p class="pt-2"> Abdulmaalik Abdullaahi Mohamed (Najmudiin)</p></div>
     
       </div> 
       
     </div>
-    
-    
+
     <div class="relative mx-auto">
       <div class="img2" style="background-image: url(/src/photos/nj-3.jpg);">
-        <div class=" h-10 bg-bottom bg-transparent py-68"></div>
+        <div class=" h-10 bg-bottom bg-transparent sm:py-20 md:p-30 lg:py-43"></div>
       
 
-        <div class="bg-[#E0B973] h-15 w-full pt-3   mx-auto text-2xl tracking-wider  text-center font-semibold"><p> Abdulmaalik Abdullaahi Mohamed (Najmudiin)</p></div>
+        <div class="bg-[#E0B973] h-15 w-full pt-3   mx-auto text-xl tracking-wide  text-center font-semibold">
+          <p> Abdulmaalik Abdullaahi Mohamed (Najmudiin)</p>
+        </div>
     
       </div> 
       
@@ -91,26 +105,27 @@
     
     
     <div class="relative mx-auto pb-30">
-      <div class="img3 rounded-t-2xl " style="background-image: url(/src/photos/nj-1.jpg);">
-        <div class=" h-10 bg-bottom bg-transparent py-68"></div>
+      <div class="img3 rounded-t-2xl " style="background-image: url(photos/nj-1.jpg);">
+        <div class=" h-10 bg-bottom bg-transparent sm:py-20 md:p-30 lg:py-43"></div>
 
 
-        <div class="bg-[#14274A] h-15 w-full pt-3   mx-auto text-2xl tracking-wider text-white text-center font-semibold">
+        <div class="bg-[#14274A] h-15 w-full pt-3   mx-auto text-xl tracking-wide text-white text-center font-semibold">
           <p> Abdulmaalik Abdullaahi Mohamed (Najmudiin)</p>
 
         </div>
-      
-
         
-        <div class="border h-39 border-[#14274A] rounded-b-2xl">
+        <div class="border h-39 border-[#14274A] rounded-b-2xl ">
 
-          
-          <div class="flex mx-auto my-17 w-[900px]">
-            <img class="w-15   " src="/src/photos/plus.png" alt="">
-            <p class="text-black text-2xl font-normal tracking-wider mt-3 ">View my contect</p>
-            <button class="btns ml-110 mt-2 font-bold text-xl h-12 ">Contact me</button>
-
+          <div class="flex justify-between lg:w-150 md:w-100  mx-auto pt-12 ">
+            <div class="flex">
+              <img class="w-12" src="photos/plus.png" alt="Plus">
+              <p class="text-black text-2xl font-normal   ">View my contect</p>
+            </div>
+            <div>
+              <button class="btns  font-medium text-xl h-12 ">Contact me</button>
+            </div>
           </div>
+
         
         </div>
     
@@ -118,65 +133,70 @@
       
     </div>
 
+  
   </div>
 
 
   <!-- footer part -->
 
-  <div class="w-0 h-0 
-  border-l-[40px] border-l-transparent 
-  border-r-[40px] border-r-transparent 
-  border-t-[30px] rotate-180 mx-auto border-[#14274A]  "></div>
+  <section class="pt-12 ">
 
-  <footer class="bg-[#14274A] h-70 mx-auto">
+    <div class="w-0 h-0 
+      border-l-[40px] border-l-transparent 
+      border-r-[40px] border-r-transparent 
+      border-t-[30px] rotate-180 mx-auto border-[#14274A]  ">
+    </div>
 
-    <div class="Alltxt flex w-[1500px] mx-auto justify-between pt-13 text-white text ">
+    <footer class="bg-[#14274A] h-70  ">
 
-      <div class="text1  tracking-widest space-y-12">
-        <p class="text-3xl font-medium">
-          NAJMUDIIN<br>
-          <span class="font-light text-2xl">WEBSITE</span>
-        </p>
+      <div class="flex sm:w-[600px] md:w-[740px] lg:w-[1000px]   mx-auto justify-between text-white items-center">
+        <div class=" pt-15">
+          <p class="lg:text-3xl md:text-2xl sm:text-xl font-medium">
+            NAJMUDIIN<br>
+            <span class="font-light lg:text-2xl md:text-xl sm:text-lg">WEBSITE</span>
+          </p>
         
-        <p class="text-3xl font-medium">
-          Mogadishu-Somali<br>
-          <span class="font-light text-2xl">+252619700793</span>
-        </p>
-      </div>
-
-      <div class="txt2 text-2xl font-light leading-10">
-        <ul>
-          <li><a href="/src/index.html">Home</a></li>
-          <li><a href="/src/About_me.html">About me</a></li>
-          <li><a href="/src/About_SNU.html">About SNU</a></li>
-          <li><a href="/src/About_my_village.html">About my village</a></li>
-          <li><a href="/src/Contact.html">Contac</a></li>
-        </ul>
-      </div>
-
-      <div class="txt3 txt2 text-2xl font-light leading-14 flex space-x-4">
-
-        <div class="icons">
-          <i class="fa-brands fa-facebook"></i> <br>
-          <i class="fa-brands fa-whatsapp"></i> <br>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-        
-        <div class="smtxt">
-
-          <p>
-            facebook <br>
-            WhatsApp <br>
-            LinkedIn
+          <p class="lg:text-3xl md:text-2xl sm:text-xl font-medium">
+            Mogadishu-Somali<br>
+            <span class="font-light lg:text-2xl md:text-xl sm:text-lg">+252619700793</span>
           </p>
 
         </div>
-      
+
+        <div class="pt-10">
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About_me.html">About me</a></li>
+            <li><a href="About_SNU.html">About SNU</a></li>
+            <li><a href="About_my_village.html">About my village</a></li>
+            <li><a href="Contact.html">Contac</a></li>
+          </ul>
+
+        </div>
+
+        <div class="flex space-x-2 pt-10 ">
+          <div class="space-y-3 pt-1">
+            <i class="fa-brands fa-facebook"></i> <br>
+            <i class="fa-brands fa-whatsapp"></i> <br>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div>
+            <p class=" leading-8">
+              facebook <br>
+              WhatsApp <br>
+              LinkedIn
+            </p>
+          </div>
+        </div>
+
       </div>
 
-    </div>
 
-  </footer>
+  
+    </footer>
+
+  </section>
 
 </body>
 </html>
